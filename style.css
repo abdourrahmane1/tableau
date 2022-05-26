@@ -1,0 +1,75 @@
+CSS
+h3 {
+    margin: 0;
+}
+.page{
+    display: flex;
+    justify-content: center;
+}
+td{
+    width: 10px;
+     border: 2px ;
+     text-align: center;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.vide, .espace{
+    border: none;
+}
+body{
+    text-align: center;
+}
+
+.color1{
+    background-color: #9e95c7;
+    width:10px ;
+}
+.color2{
+    background-color: #84b8d7;
+}
+.color3{
+    background-color: #a3dac9;
+}
+.color4{
+    background-color: #cdebc8;
+}
+.color5{
+    background-color: #FEECB9;
+}
+.color6{
+    background-color: #c5678e;
+}
+.color7{
+    background-color: #e68b95;
+}
+.color8{
+    background-color: #f8a78e;
+}
+.color9{
+    background-color: #fecea0;
+}
+.color10{
+    background-color: #f0f9c1;
+}
+@media screen and (max-width:1480px){
+    .blow{margin: auto;
+        width: 900px;}
+    strong{font-size: 20px;}
+    span{font-size: 11px;}
+}
+@media screen and (max-width:1080px){
+    .blow{margin: auto; width: 500px;}
+    strong{font-size:  12px;}
+    span{font-size: 8px;}
+    td{margin: auto; width: 15px;}
+}
+@media screen and (max-width:760px){
+    .blow{margin: auto; }
+    strong{font-size: 9px;}
+    span{font-size: 4px;}
+}
